@@ -3,7 +3,7 @@
 **Sean Morrow - Truro Campus**  
 **Sep 2025** 
 
-The following is a checklist of installations / configurations you need to be ready for your first day of classes in the IT program at Truro campus:
+The following is a checklist of installations / configurations your machine (whether it be in the lab or your home machine) ready for the Logic and Programming course.:
 
 1) install git on your computer
     - download git from https://git-scm.com
@@ -18,14 +18,16 @@ The following is a checklist of installations / configurations you need to be re
     - be sure to checkoff the following checkboxes:
         - *Add 'Open with Code' action to Windows Explorer file context menu*
         - *Add 'Open with Code' action to Windows Explorer directory context menu*
+    ![VS Code Installation Options](images/screen1.png)
 4) install the python SDK
     - download python from https://www.python.org
     - follow the installation instructions
-    - be sure to checkoff the checkbox that says *Add Python to PATH*
+    - be sure to checkoff the checkbox that says *Add Python to environment variables*
+    ![Python Installation Options](images/screen2.png)
 5) install required VS Code extensions
     - open VS Code
     - click on the Extensions icon on the left sidebar (or press `Ctrl+Shift+X`)
-    - search for and install the following extensions:
+    - search for and install the following extensions by clicking the install button for each one:
         - *Live Server* by Ritwick Dey
         - *vscode-icons* by vscode-icons team
         - *python* by Microsoft
@@ -36,6 +38,7 @@ The following is a checklist of installations / configurations you need to be re
     - find the setting that says *Editor: Word Wrap* and change the dropdown to `on`
 7) create an SSH key to easily authenticate with github for the school year
     - open a terminal window (Command Prompt, PowerShell, or Terminal) to your user account on your computer
+        - on a lab machine on campus this folder will be named after your student id number
     - run the following command: 
         ```
         ssh-keygen
