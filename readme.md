@@ -1,4 +1,4 @@
-# NSCC IT Setup for Logic and Programming Course (Python)
+# Setup for Logic and Programming Course (Python)
 ### Let's get you all setup!
 **Sep 2026** 
 
