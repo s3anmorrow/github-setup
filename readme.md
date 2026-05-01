@@ -1,8 +1,8 @@
-# Setup for Logic and Programming Course (Python)
-### Let's get you all setup!
+# GitHub Setup for IT Programs
+### NSCC Truro Campus
 **Sep 2026** 
 
-The following is a checklist of installations / configurations to setup your machine (whether it be in the lab or your home machine) to be ready for the Logic and Programming course.:
+The following is a checklist of installations / configurations to setup your machine (whether it be in the lab or your home machine) to be ready for using GitHub for the school year.
 
 1) install git on your computer
     - download git from https://git-scm.com
@@ -11,31 +11,7 @@ The following is a checklist of installations / configurations to setup your mac
     - go to https://github.com and create an account
     - be sure to use your personal email address (gmail, etc) and NOT your NSCC email address
     - be sure to remember your username / password
-3) install VS Code editor
-    - download VS Code from https://code.visualstudio.com
-    - follow the installation instructions
-    - be sure to checkoff the following checkboxes:
-        - *Add 'Open with Code' action to Windows Explorer file context menu*
-        - *Add 'Open with Code' action to Windows Explorer directory context menu*
-    ![VS Code Installation Options](images/screen1.png)
-4) install the python SDK
-    - download python from https://www.python.org
-    - follow the installation instructions
-    - be sure to checkoff the checkbox that says *Add Python to environment variables*
-    ![Python Installation Options](images/screen2.png)
-5) install required VS Code extensions
-    - open VS Code
-    - click on the Extensions icon on the left sidebar (or press `Ctrl+Shift+X`)
-    - search for and install the following extensions by clicking the install button for each one:
-        - *Live Server* by Ritwick Dey
-        - *vscode-icons* by vscode-icons team
-        - *python* by Microsoft
-6) adjust word wrap setting in VS Code
-    - open VS Code
-    - click on the gear icon in the bottom-left corner, and select *Settings*
-    - in the search bar at the top, type `word wrap`
-    - find the setting that says *Editor: Word Wrap* and change the dropdown to `on`
-7) create an SSH key to easily authenticate with github for the school year
+3) create an SSH key to easily authenticate with github for the school year
     - open a terminal window (Command Prompt, PowerShell, or Terminal) to your user account on your computer
         - on a lab machine on campus this folder will be named after your student id number
     - run the following command: 
@@ -43,7 +19,7 @@ The following is a checklist of installations / configurations to setup your mac
         ssh-keygen
         ```
         - click enter on all options until the cursor appears again
-    - change directory to the /.ssh folder by running the following command:
+    - change directory to the `/.ssh` folder by running the following command:
         ```
         cd .ssh
         ```
