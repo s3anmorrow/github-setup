@@ -1,9 +1,8 @@
-# NSCC IT Program On-Ramp 
+# NSCC IT Setup for Logic and Programming Course (Python)
 ### Let's get you all setup!
-**Sean Morrow - Truro Campus**  
-**Sep 2025** 
+**Sep 2026** 
 
-The following is a checklist of installations / configurations your machine (whether it be in the lab or your home machine) ready for the Logic and Programming course.:
+The following is a checklist of installations / configurations to setup your machine (whether it be in the lab or your home machine) to be ready for the Logic and Programming course.:
 
 1) install git on your computer
     - download git from https://git-scm.com
