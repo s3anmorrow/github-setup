@@ -44,3 +44,5 @@ The following is a checklist of installations / configurations to setup your mac
         ```
         - if this is your first time connecting to github, you will be asked if you want to continue connecting; type `yes` and press enter
         - you should see a message that says "Hi [your username]! You've successfully authenticated, but GitHub does not provide shell access."
+
+:exclamation: note that an SSH key must be created on your machine in all labs on campus as well as your home machine / laptop. Repeat step 3 on all machines
