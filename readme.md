@@ -34,6 +34,7 @@ The following is a checklist of installations / configurations to setup your mac
         ```
         type id_ed25519.pub
         ```
+        - if you are running MacOS / Linux: use the command `cat id_ed25519.pub`
         - the contents of the file is displayed in the terminal window
         - it will be one single line; select it with the mouse and copy it to your clipboard (press `Ctrl+C`)
     - add the public key to your github account
