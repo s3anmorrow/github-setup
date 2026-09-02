@@ -7,14 +7,20 @@ The following is a checklist of installations / configurations to setup your mac
 1) install git on your computer
     - download git from https://git-scm.com
     - follow the installation instructions, and leave all settings as default
-2) create a github account
-    - go to https://github.com and create an account
-    - be sure to use your personal email address (gmail, etc) and NOT your NSCC email address
-    - be sure to remember your username / password
-3) create an SSH key to easily authenticate with github for the school year
     - open a terminal window (Command Prompt, PowerShell, or Terminal) to your user account on your computer (e.g. C:\Users\username)
         - on a lab machine on campus this folder will be named after your student id number
-    - run the following command: 
+    - finish configuration of git by running the following commands in your terminal window:
+        ```
+        git config --global user.name "Your Name"
+        git config --global user.email "your email address"
+        ```
+        - do not use your NSCC email address, use a personal email address (gmail, etc)
+2) create a github account
+    - go to https://github.com and create an account
+    - be sure to use the same personal email address used in previous step
+    - be sure to remember your username / password
+3) create an SSH key to easily authenticate with github for the school year
+    - run the following command in the already opened terminal window: 
         ```
         ssh-keygen
         ```
