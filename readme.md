@@ -12,7 +12,7 @@ The following is a checklist of installations / configurations to setup your mac
     - be sure to use your personal email address (gmail, etc) and NOT your NSCC email address
     - be sure to remember your username / password
 3) create an SSH key to easily authenticate with github for the school year
-    - open a terminal window (Command Prompt, PowerShell, or Terminal) to your user account on your computer
+    - open a terminal window (Command Prompt, PowerShell, or Terminal) to your user account on your computer (e.g. C:\Users\username)
         - on a lab machine on campus this folder will be named after your student id number
     - run the following command: 
         ```
@@ -29,7 +29,7 @@ The following is a checklist of installations / configurations to setup your mac
         type id_ed25519.pub
         ```
         - the contents of the file is displayed in the terminal window
-        - it will be one single line; select it with the mouse and copy it to your clipboard (right-click and select copy, or press `Ctrl+C`)
+        - it will be one single line; select it with the mouse and copy it to your clipboard (press `Ctrl+C`)
     - add the public key to your github account
         - go to your github account in a web browser (login if necessary)
         - click on your profile picture in the top-right corner, and select *Settings*
